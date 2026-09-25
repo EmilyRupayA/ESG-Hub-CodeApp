@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "appId": "471d0828-fab9-45ed-93fc-9d8d2e2c8c97",
+  "appDisplayName": "CodeApps",
+  "region": "prod",
+  "environmentId": "9ebfa867-1c3f-e86f-aa80-d32d228c960e",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "84a95fa6-531c-4d94-a24b-e14ee01a9ece": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "displayName": "SharePoint",
+      "dataSources": [
+        "projects",
+        "monthlytracking",
+        "assistance",
+        "referentials"
+      ],
+      "dataSets": {
+        "https://teamsite.msc.com/sites/AppSostenibilidad": {
+          "dataSources": {
+            "projects": {
+              "tableName": "385a138b-53b5-4717-90e6-b3dc4c990c64"
+            },
+            "monthlytracking": {
+              "tableName": "029223b5-9d91-4ad7-9ec1-c054b26b017a"
+            },
+            "assistance": {
+              "tableName": "68d6527f-8436-4af2-a63d-53febddc6d4a"
+            },
+            "referentials": {
+              "tableName": "c9bda9b2-5088-42a0-b37d-4b8db747f401"
+            }
+          }
+        }
+      }
+    }
+  },
+  "databaseReferences": {}
+}

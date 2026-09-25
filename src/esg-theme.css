@@ -1,0 +1,23 @@
+/*
+ * Colores de marca ESG Hub.
+ * Pega este bloque AL FINAL de src/index.css (Tailwind v4).
+ * Habilita clases como bg-esg-navy, text-esg-teal, border-esg-gold, bg-esg-taupe/20…
+ */
+/* ===== Colores ESG Hub ===== */
+@theme inline {
+  --color-esg-navy: #1b365d;
+  --color-esg-teal: #00685e;
+  --color-esg-gold: #eed484;
+  --color-esg-taupe: #aca39a;
+}
+
+/* Color primario de shadcn = azul marino de la marca */
+:root {
+  --primary: #1b365d;
+  --primary-foreground: #ffffff;
+  --ring: #00685e;
+}
+.dark {
+  --primary: #eed484;
+  --primary-foreground: #1b365d;
+}
